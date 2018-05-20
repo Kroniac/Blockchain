@@ -30,8 +30,10 @@ while True:
   if user_choice == 1:
     tx_amount = return_transaction_value()
     add_value(tx_amount, get_last_transaction_value())
-  else:
+  elif user_choice == 2:
     print_blockchain_elements()
+  else:
+    print('Invalid choice')
 
 
 
